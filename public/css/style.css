@@ -1,8 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 section {
-    /* You will add new style rules here */
-   /*background: url(https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/winter.jpg);*/
-   background-repeat: none;
    width: 100%;
    height: 1000px;
    color:white;
