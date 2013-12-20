@@ -6,36 +6,32 @@ section {
    font-family: Lobster;
    position:relative;
    margin:auto;
-   min-width: 400px;
+   /*min-width: 400px;*/
 }
 h1 {
     font-size: 48px;
     position:relative;
     margin:0;
     top:0;
-    left:30%;
+    left:35%;
 }
 h2 { 
     font-size: 36px;
     position: relative;
     margin: 0;
     top: 60px;
-    left: 30%;
-}
-
-.snowman, .Jen, .Frida {
-  margin-top: 10%;
+    left: 35%;
 }
 
 .snowman { 
     position: relative;
     top: 200px;
-    left: 20%;
-    margin-top:20%;
+    left: 22.5%;
+    margin-top:10%;
     padding-top:3px;
-    -webkit-transition: margin 0.1s ease-out;
-    -moz-transition: margin 0.1s ease-out;
-    -o-transition: margin 0.1s ease-out;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
 
 .snowman:hover {
@@ -43,11 +39,10 @@ h2 {
   margin-top: 5px;
 }
 
-
 .Jen  {
   position: relative;
   top: 50px;
-  left: 10%;
+  left: 17.5%;
   border-radius:50%;
   width:20%;
   -webkit-animation: rock-boat1 3s ease 2;
@@ -56,7 +51,7 @@ h2 {
 .Frida  {
   position: relative;
   top: 50px;
-  left: 30%;
+  left: 25%;
   border-radius:60%;
   width:15%;
   -webkit-animation: rock-boat1 3s ease 2;
@@ -66,7 +61,6 @@ body {
     background: darkslategrey;
 }
 
- 
 
 
 
