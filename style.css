@@ -9,17 +9,18 @@ section {
    font-family: Lobster;
    position:relative;
    margin:auto;
+   min-width: 400px;
 }
 h1 {
     font-size: 48px;
-    position:absolute;
+    position:relative;
     margin:0;
     top:0;
     left:30%;
 }
 h2 { 
     font-size: 36px;
-    position: absolute;
+    position: relative;
     margin: 0;
     top: 60px;
     left: 30%;
@@ -33,43 +34,42 @@ h2 {
     position: relative;
     top: 200px;
     left: 20%;
-    -webkit-animation: rock-boat 3s ease infinite;
+    margin-top:20%;
+    padding-top:3px;
+    -webkit-transition: margin 0.1s ease-out;
+    -moz-transition: margin 0.1s ease-out;
+    -o-transition: margin 0.1s ease-out;
 }
+
+.snowman:hover {
+  cursor:pointer;
+  margin-top: 5px;
+}
+
 
 .Jen  {
   position: relative;
-  top: 200px;
+  top: 50px;
   left: 10%;
   border-radius:50%;
   width:20%;
-  -webkit-animation: rock-boat1 3s ease infinite;
+  -webkit-animation: rock-boat1 3s ease 2;
 }
 
 .Frida  {
   position: relative;
-  top: 200px;
+  top: 50px;
   left: 30%;
   border-radius:60%;
   width:15%;
-  -webkit-animation: rock-boat3 3s ease infinite;
+  -webkit-animation: rock-boat1 3s ease 2;
 }
 
 body {
     background: darkslategrey;
 }
 
-img {
-  margin-top:20px;
-  padding-top:3px;
-  -webkit-transition: margin 0.5s ease-out;
-  -moz-transition: margin 0.5s ease-out;
-  -o-transition: margin 0.5s ease-out;
-}
  
-img:hover {
-  cursor:pointer;
-  margin-top: 5px;
-}
 
 
 
@@ -77,15 +77,15 @@ img:hover {
 ------------------------------------------ */
 
 @-webkit-keyframes rock-boat1 {
+    50%  { -webkit-transform: rotate(360deg) translateY(-10px); }
+
+/*@-webkit-keyframes rock-boat2 {
+    50%  { -webkit-transform: rotate(-180deg) translateY(-10px); }
+*/
+/*@-webkit-keyframes rock-boat3 {
     50%  { -webkit-transform: rotate(20deg) translateY(-10px); }
 
-@-webkit-keyframes rock-boat2 {
-    50%  { -webkit-transform: rotate(-5deg) translateY(-10px); }
-
-@-webkit-keyframes rock-boat3 {
-    50%  { -webkit-transform: rotate(-20deg) translateY(-10px); }
-
-
+*/
 
 
 
