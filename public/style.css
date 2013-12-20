@@ -1,37 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 section {
-   width: 100%;
-   height: 1000px;
-   color:white;
-   font-family: Lobster;
-   position:relative;
-   margin:auto;
-   /*min-width: 400px;*/
+  width: 100%;
+  height: 1000px;
+  color:white;
+  font-family: Lobster;
+  position:relative;
+  margin:auto;
 }
+
 h1 {
-    font-size: 48px;
-    position:relative;
-    margin:0;
-    top:0;
-    left:35%;
+  font-size: 48px;
+  position:relative;
+  margin:0;
+  top:0;
+  left:35%;
 }
+
 h2 { 
-    font-size: 36px;
-    position: relative;
-    margin: 0;
-    top: 60px;
-    left: 35%;
+  font-size: 36px;
+  position: relative;
+  margin: 0;
+  top: 60px;
+  left: 35%;
 }
 
 .snowman { 
-    position: relative;
-    top: 200px;
-    left: 22.5%;
-    margin-top:10%;
-    padding-top:3px;
-    -webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
+  position: relative;
+  top: 200px;
+  left: 22.5%;
+  margin-top:10%;
+  padding-top:3px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
 }
 
 .snowman:hover {
@@ -58,10 +59,8 @@ h2 {
 }
 
 body {
-    background: darkslategrey;
+  background: darkslategrey;
 }
-
-
 
 
 /*  Keyframes - WebKit only
@@ -69,14 +68,3 @@ body {
 
 @-webkit-keyframes rock-boat1 {
     50%  { -webkit-transform: rotate(360deg) translateY(-10px); }
-
-/*@-webkit-keyframes rock-boat2 {
-    50%  { -webkit-transform: rotate(-180deg) translateY(-10px); }
-*/
-/*@-webkit-keyframes rock-boat3 {
-    50%  { -webkit-transform: rotate(20deg) translateY(-10px); }
-
-*/
-
-
-

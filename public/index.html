@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <head>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
-        <title>Happy Holidays!</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://cacpg.herokuapp.com/js/demos/snowfall.min.js"></script>
-<script>
-$(document).ready(function() {
-    snowFall.snow($("section"), {
-        minSize: 1,
-        maxSize: 8,
-        round: true,
-        minSpeed: 1,
-        maxSpeed: 10,
-        flakeCount: 120
-    });
-});
-</script>
+    <title>Happy Holidays!</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://cacpg.herokuapp.com/js/demos/snowfall.min.js"></script>
+    <script>
+      $(document).ready(function() {
+          snowFall.snow($("section"), {
+              minSize: 1,
+              maxSize: 8,
+              round: true,
+              minSpeed: 1,
+              maxSpeed: 10,
+              flakeCount: 120
+          });
+      });
+    </script>
 
     <body>
-    
-    <!-- Add your heading below this line -->
-    <section>
-      <h1>Happy Holidays!</h1>
-      <h2>From Jen & Frida Dog</h2>
-      <img class="Jen" src="images/jen.jpg">
-      <a target="_blank" href="http://somafmchristmas.rad.io/"><img class="snowman" src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/snowman.png"></a>
-      <img class="Frida" src="images/frida.jpg"
-    </section>
+      <section>
+        <h1>Happy Holidays!</h1>
+        <h2>From Jen & Frida Dog</h2>
+          <img class="Jen" src="images/jen.jpg">
+          <a target="_blank" href="http://somafmchristmas.rad.io/"><img class="snowman" src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/snowman.png"></a>
+          <img class="Frida" src="images/frida.jpg"
+      </section>
     </body>
-
-
 </html>
